@@ -14,6 +14,7 @@ public class RacingCarGameController {
         racingCarGameView.startRacingCarGame();
         String userInput = racingCarGameView.getUserInput();
         Cars cars = new Cars(userInput);
-
+        racingCarGameView.askTryNumber();
+        String userTryNumberInput = racingCarGameView.getUserInput();
     }
 }
